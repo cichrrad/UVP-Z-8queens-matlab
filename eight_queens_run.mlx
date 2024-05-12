@@ -1,0 +1,8 @@
+reseni = osm_dam_graf;
+i = randi([1, 92]);
+
+pcolor(cell2mat(reseni(i)));
+
+title("Reseni cislo "+i+"/92")
+colormap("summer");
+axis square
